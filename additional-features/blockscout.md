@@ -87,7 +87,7 @@ sudo unzip -d /usr/local/elixir/ Precompiled.zip
 rm Precompiled.zip
 ```
 
-Now we need to properly set up `exlixir` system binaries.   
+Now we need to properly set up `elixir` system binaries.   
 ```bash
 sudo ln -s /usr/local/elixir/bin/elixir /usr/local/bin/elixir
 sudo ln -s /usr/local/elixir/bin/mix /usr/local/bin/mix
